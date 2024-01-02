@@ -1,11 +1,11 @@
-@use "sass:math";
+@use "sass:math"; // import the sass:math
 
 .card{
     display: block;
     padding: $base-padding;
     border:$base-border-thickness solid #ddd;
     box-shadow: $base-box-shadow;
-    border-radius: math.div($base-border-radius,4);
+    border-radius: math.div($base-border-radius,4); // sass-math
     .card-title{
         font-size: $base-font-size;
         padding-bottom: $base-padding;
